@@ -1,0 +1,32 @@
+<%- include('../partials/header') -%>
+
+<div class="p-5 mb-4 bg-light rounded-3 ">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">BMI - Rechner</h1>
+      <p class="col-md-8 fs-4">Mit diesem Tool kanst du einfach deinen BMI bestimmen.</p>
+    </div>
+</div>
+
+<!-- <div class="card shadow" style="height: 110px;"> -->
+<div class="card shadow" style="width: auto;">
+    <img src="../../public/img/bauch_sm.png" class="card-img-top" alt="BauchMessen">
+    <form class="form-horizontal" action="result" method="get">
+        <div class="card-body">
+            <legend>Bitte gib deine Daten ein!</legend>
+            <div class="mb-3">
+                <label for="cm" class="form-label">Größe [cm]</label>
+                <input type="text" name="cm" id="cm" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="kg" class="form-label">Gewicht [kg]</label>
+                <input type="text" name="kg" id="kg" class="form-control">
+            </div>
+        </div>
+        <div class="card-footer">
+            <input type="submit" class="btn btn-primary" value="Absenden!">
+        </div>
+    </form>
+</div>
+
+
+<%- include('../partials/footer') -%>

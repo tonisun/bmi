@@ -1,0 +1,16 @@
+{
+	"apps":[{
+		"name": "bmi",
+		"script": "app.js",
+		"watch": ["views", "public"],
+		"env": {
+			"NODE_ENV": "development"
+		},
+		"env_production": {
+			"NODE_ENV": "production"
+		},
+		"log_date_format": "MM-DD-YYYY HH:mm Z",
+		"error_file": "bmi_err.log",
+		"out_file": "bmi_out.log"
+	}]
+}
