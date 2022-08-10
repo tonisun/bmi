@@ -15,7 +15,8 @@ Ein App der dir Zeigt ob du schöner geworden bist und wie du noch schöner blei
 ## Inhalte
 
 - [Das Projekt Ziel](#das-projekt-ziel)
+  - Mindmap
 - [Projekt settings](#projekt-settings)
 - [ER Diagramm](#er-diagramm)
-
+- [Diagramm mit meine Daten]
 
